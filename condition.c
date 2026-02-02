@@ -1,20 +1,31 @@
 #include <stdio.h>
 int main() {
-    int number;
-    printf("enter the number:");
-    scanf("%d",&number);
-    if (number>0) {
-        if (number % 2 ==0){
-            printf("positive and even\n");
-        }else{
-            printf("postive and odd\n");
+    int day;
+    printf("enter the number 1-7:");
+    scanf("%d",&day);
+    switch(day){
+        case 1{
+            printf("saturday\n");
+            break;
+        }case 2{
+            printf("sunday\n");
+            break;
+        }case 3{
+            printf("Monday\n");
+            break;
+        }case 4{
+            printf("Tuesday\n");
+            break;
+        }case 5{
+            printf("Wendesday\n");
+            break;
+        }case 6{
+            printf("Thursday\n");
+            break;
+        }case 7{
+            printf("Friday");
+            break;
         }
-    else if(number <0){
-        printf("negative number\n");
-        }
-    else{
-        printf("zero?");
     }
     return 0;
-    
 }
